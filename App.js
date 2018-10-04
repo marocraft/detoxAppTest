@@ -74,7 +74,7 @@ const styles = StyleSheet.create({
   },
   touchableOpacityStyle: {
     alignItems: 'center',
-    backgroundColor: '#E8774E',
+    backgroundColor: '#E8764E',
     width: 250,
     borderRadius: 2,
     padding: 12,
