@@ -18,7 +18,7 @@ to configure Detox on your project, `detox-cli` should be installed globally.
 If you have a React Native project, go to its root folder (where `package.json` is found) and type the following command.
 
 ```sh
-npm install detox --save-dev
+  npm install detox --save-dev
 ```
 
 ## 3. Install a test runner
@@ -28,14 +28,14 @@ Detox CLI supports Jest and Mocha so u can chose one of theme to test your proje
 - [Jest](http://jestjs.io/)
 
 ```sh
-npm install jest --save-dev
+  npm install jest --save-dev
 ```
 Or.
 
 - [Mocha](https://mochajs.org/)
 
 ```sh
-npm install mocha --save-dev
+  npm install mocha --save-dev
 ```
 ## 4. Add Detox config instructions to package.json
 
@@ -110,7 +110,7 @@ after(async () => {
 ## 6. Run your Detox test
 
 ```sh
-detox test
+  detox test
 ```
 > TIP: PLEASE don't forget to Build your project first with ``` detox build ```
 
@@ -126,19 +126,20 @@ Or
  
  * First clone it to your machine with
  
-  ```sh
- git clone
- ```
+```sh
+  git clone
+```
  * Install dependencies in the root of the project with
  
- ```sh
- cd detoxAppTest/
- npm install
- ```
+```sh
+  cd detoxAppTest/
+  npm install
+```
 * Run your Test with
 
 ```sh
-detox test
+  detox build
+  detox test
 ```
 
 Enjoy with Detox :).
