@@ -23,7 +23,7 @@
   },
   "detox": {
     "specs": "e2e",
-    "runner-config": "e2e/mocha.opts",
+    "test-runner": "jest",
     "configurations": {
       "ios.sim.debug": {
         "binaryPath": "ios/build/Build/Products/Release-iphonesimulator/detoxAppTest.app",
@@ -31,7 +31,6 @@
         "type": "ios.simulator",
         "name": "iPhone X"
       }
-    },
-    "test-runner": "mocha"
+    }
   }
 }

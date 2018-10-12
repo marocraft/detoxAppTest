@@ -1,4 +1,4 @@
-describe("Example", () => {
+describe("Detox - E2E Tests", () => {
   beforeEach(async () => {
     await device.reloadReactNative();
   });
